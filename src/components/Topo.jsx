@@ -3,7 +3,7 @@ import logo from "../assets/logo.jpeg";
 
 import { FaGasPump, FaWhatsapp } from "react-icons/fa";
 
-const Main = () => {
+const Topo = () => {
   return (
     <div className="p-5 w-full h-screen bg-gradient-to-b from-[#F6C234] via-yellow-500 to-[#275336]">
       <div className="flex justify-center w-full">
@@ -41,4 +41,4 @@ const Main = () => {
   );
 };
 
-export default Main;
+export default Topo;
