@@ -22,9 +22,13 @@ const Topo = () => {
           />
         </div>
 
-        <div className="flex flex-col w-full items-center justify-center p-5">
+        <div className="flex flex-col w-full items-center justify-center p-5 lg:p-10">
           <div className="lg:w-3/6 backdrop-opacity-10 bg-white/30 rounded-xl p-3 shadow-xl shadow-white/20">
-            <h2 className="text-3xl text-blue-900 text-center lg:text-5xl font-bold my-8 lg:my-16 antialiased">
+          <h2 className="text-5xl lg:text-8xl font-black text-green-900 text-left">
+            Experimente a REVOLUÇÃO na troca de óleo
+          </h2>
+            {/* <h2 className="text-4xl lg:text-6xl text-blue-900 font-black">Na troca de óleo</h2> */}
+            <h2 className="text-lg text-green-900 text-left lg:text-base antialiased my-5">
               Faça agora a troca de óleo do seu carro com uma equipe
               especializada e mantenha seu carro em perfeitas condições.
               Deixe-nos cuidar disso para você!
@@ -35,9 +39,7 @@ const Topo = () => {
             <button className="bg-blue-900 shadow-md shadow-slate-700 rounded-xl p-5">
               <div className="flex justify-center items-center gap-4">
                 <FaWhatsapp size={25} color="FFFFFF" />
-                <h2 className="text-white font-bold">
-                  Solicite uma cotação
-                </h2>
+                <h2 className="text-white font-bold">Solicite uma cotação</h2>
               </div>
             </button>
             <button className="bg-blue-900 shadow-md shadow-slate-700 rounded-xl p-5">
