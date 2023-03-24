@@ -10,7 +10,7 @@ const Services = () => {
 
       <div className="p-5 w-5/6 bg-yellow-500 rounded-2xl flex flex-col justify-center items-center">
         <FaFilter size={50} color="FFFFFF" />
-        <h2 className="text-xl font-bold text-white">Troca de óleo</h2>
+        <h2 className="text-2xl font-bold text-white">Troca de óleo</h2>
         <p className="text-sm text-justify mt-3 text-white">
           Com nossos serviços profissionais e eficientes, você garante o bom funcionamento do motor e evita problemas mais graves no futuro. 
           Agende agora e tenha a tranquilidade de estar cuidando bem do seu veículo.
@@ -24,7 +24,7 @@ const Services = () => {
       {/* Servico de alinhamento */}
       <div className="p-5 w-5/6 bg-green-800 rounded-2xl flex flex-col justify-center items-center">
         <FaFilter size={50} color="FFFFFF" />
-        <h2 className="text-xl font-bold text-white">Alinhamento</h2>
+        <h2 className="text-2xl font-bold text-white">Alinhamento</h2>
         <p className="text-sm text-justify mt-3 text-white">
           Deixe seu carro pronto para encarar o dia-a-dia com nossos serviços de alinhamento de última geração!
           Agende agora e sinta a diferença no desempenho do seu veículo
@@ -38,7 +38,7 @@ const Services = () => {
       {/* Balanceamento */}
       <div className="p-5 w-5/6 bg-blue-800 rounded-2xl flex flex-col justify-center items-center">
         <FaFilter size={50} color="FFFFFF" />
-        <h2 className="text-xl font-bold text-white">Balanceamento</h2>
+        <h2 className="text-2xl font-bold text-white">Balanceamento</h2>
         <p className="text-sm text-justify mt-3 text-white">
           Sinta a diferença no conforto e na dirigibilidade do seu carro com nossos serviços de balanceamento de rodas! 
           Agende agora e tenha a certeza de estar cuidando bem do seu veículo.
