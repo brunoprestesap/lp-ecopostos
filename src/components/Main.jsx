@@ -15,7 +15,7 @@ const Main = () => {
       </div>
 
       <h2 className="text-3xl text-blue-900 text-center font-bold my-16 antialiased">
-        Agende agora a troca de óleo com equipamentos modernos, equipe especializada e mantenha seu carro em perfeitas
+        Agende agora a troca de óleo do seu carro com uma equipe especializada e mantenha seu carro em perfeitas
         condições. Deixe-nos cuidar disso para você!
       </h2>
 
