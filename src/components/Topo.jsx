@@ -25,7 +25,7 @@ const Topo = () => {
         <div className="flex flex-col w-full items-center justify-center p-5">
           <div className="lg:w-3/6 backdrop-opacity-10 bg-white/30 rounded-xl p-3 shadow-xl shadow-white/20">
             <h2 className="text-3xl text-blue-900 text-center lg:text-5xl font-bold my-8 lg:my-16 antialiased">
-              Agende agora a troca de óleo do seu carro com uma equipe
+              Faça agora a troca de óleo do seu carro com uma equipe
               especializada e mantenha seu carro em perfeitas condições.
               Deixe-nos cuidar disso para você!
             </h2>
@@ -36,7 +36,7 @@ const Topo = () => {
               <div className="flex justify-center items-center gap-4">
                 <FaWhatsapp size={25} color="FFFFFF" />
                 <h2 className="text-white font-bold">
-                  Agende a sua troca de óleo
+                  Solicite uma cotação
                 </h2>
               </div>
             </button>
@@ -44,7 +44,7 @@ const Topo = () => {
               <div className="flex justify-center items-center gap-4">
                 <FaGasPump size={25} color="FFFFFF" />
                 <h2 className="text-white font-bold">
-                  Localize o Ecoposto mais pŕoximo
+                  Localize o Ecoposto mais próximo
                 </h2>
               </div>
             </button>

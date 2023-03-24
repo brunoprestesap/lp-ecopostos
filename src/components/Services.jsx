@@ -4,12 +4,12 @@ import { MdOutlineCarRepair } from "react-icons/md";
 
 const Services = () => {
   return (
-    <div className="p-5 bg-yellow-50 flex flex-col items-center w-full">
-      <h2 className="text-center font-bold text-4xl text-blue-800 mb-5">
+    <div className="p-5 bg-yellow-50 flex flex-col justify-center items-center w-full lg:h-[600px]">
+      <h2 className="text-center font-bold text-4xl lg:text-6xl text-blue-800 mb-5">
         Nossos Serviços
       </h2>
 
-      <div className="lg:w-5/6 grid grid-cols-1 lg:grid-cols-3 justify-items-center gap-5">
+      <div className="lg:w-5/6 grid grid-cols-1 lg:grid-cols-3 justify-items-center gap-5 lg:mt-10">
         <div className="p-5 w-5/6 bg-yellow-500 rounded-2xl flex flex-col justify-center items-center shadow-lg shadow-slate-600">
           <FaFilter size={50} color="FFFFFF" />
           <h2 className="text-2xl font-bold text-white">Troca de óleo</h2>
