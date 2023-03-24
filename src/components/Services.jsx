@@ -1,5 +1,6 @@
 import React from "react";
-import { FaFilter, FaWhatsapp } from "react-icons/fa";
+import { FaFilter, FaWhatsapp, FaCar } from "react-icons/fa";
+import { MdOutlineCarRepair } from 'react-icons/md'
 
 const Services = () => {
   return (
@@ -23,7 +24,7 @@ const Services = () => {
 
       {/* Servico de alinhamento */}
       <div className="p-5 w-5/6 bg-green-800 rounded-2xl flex flex-col justify-center items-center shadow-lg shadow-slate-600">
-        <FaFilter size={50} color="FFFFFF" />
+        <MdOutlineCarRepair size={50} color="FFFFFF" />
         <h2 className="text-2xl font-bold text-white">Alinhamento</h2>
         <p className="text-sm text-justify mt-3 text-white">
           Deixe seu carro pronto para encarar o dia-a-dia com nossos serviços de alinhamento de última geração!
@@ -37,7 +38,7 @@ const Services = () => {
 
       {/* Balanceamento */}
       <div className="p-5 w-5/6 bg-blue-800 rounded-2xl flex flex-col justify-center items-center shadow-lg shadow-slate-600">
-        <FaFilter size={50} color="FFFFFF" />
+        <FaCar size={50} color="FFFFFF" />
         <h2 className="text-2xl font-bold text-white">Balanceamento</h2>
         <p className="text-sm text-justify mt-3 text-white">
           Sinta a diferença no conforto e na dirigibilidade do seu carro com nossos serviços de balanceamento de rodas! 
