@@ -23,7 +23,7 @@ const Topo = () => {
         </div>
 
         <div className="flex flex-col w-full items-center justify-center p-5">
-          <div className="lg:w-3/6 backdrop-opacity-10 bg-white/30 rounded-xl p-5 shadow-xl shadow-white/20">
+          <div className="lg:w-3/6 backdrop-opacity-10 bg-white/30 rounded-xl p-3 shadow-xl shadow-white/20">
             <h2 className="text-3xl text-blue-900 text-center lg:text-5xl font-bold my-8 lg:my-16 antialiased">
               Agende agora a troca de óleo do seu carro com uma equipe
               especializada e mantenha seu carro em perfeitas condições.
