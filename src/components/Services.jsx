@@ -8,7 +8,7 @@ const Services = () => {
         Nossos Serviços
       </h2>
 
-      <div className="p-5 w-5/6 bg-yellow-500 rounded-2xl flex flex-col justify-center items-center">
+      <div className="p-5 w-5/6 bg-yellow-500 rounded-2xl flex flex-col justify-center items-center shadow-lg shadow-slate-600">
         <FaFilter size={50} color="FFFFFF" />
         <h2 className="text-2xl font-bold text-white">Troca de óleo</h2>
         <p className="text-sm text-justify mt-3 text-white">
@@ -22,7 +22,7 @@ const Services = () => {
       </div>
 
       {/* Servico de alinhamento */}
-      <div className="p-5 w-5/6 bg-green-800 rounded-2xl flex flex-col justify-center items-center">
+      <div className="p-5 w-5/6 bg-green-800 rounded-2xl flex flex-col justify-center items-center shadow-lg shadow-slate-600">
         <FaFilter size={50} color="FFFFFF" />
         <h2 className="text-2xl font-bold text-white">Alinhamento</h2>
         <p className="text-sm text-justify mt-3 text-white">
@@ -36,7 +36,7 @@ const Services = () => {
       </div>
 
       {/* Balanceamento */}
-      <div className="p-5 w-5/6 bg-blue-800 rounded-2xl flex flex-col justify-center items-center">
+      <div className="p-5 w-5/6 bg-blue-800 rounded-2xl flex flex-col justify-center items-center shadow-lg shadow-slate-600">
         <FaFilter size={50} color="FFFFFF" />
         <h2 className="text-2xl font-bold text-white">Balanceamento</h2>
         <p className="text-sm text-justify mt-3 text-white">
