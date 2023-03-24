@@ -36,13 +36,13 @@ const Topo = () => {
           </div>
 
           <div className="flex flex-col lg:flex-row justify-start gap-5 absolute bottom-10 left-15">
-            <button className="bg-blue-900 shadow-md shadow-slate-700 rounded-xl p-5">
+            <button className="bg-green-900 shadow-md shadow-slate-700 rounded-xl p-5">
               <div className="flex justify-center items-center gap-4">
                 <FaWhatsapp size={25} color="FFFFFF" />
                 <h2 className="text-white font-bold">Solicite uma cotação</h2>
               </div>
             </button>
-            <button className="bg-blue-900 shadow-md shadow-slate-700 rounded-xl p-5">
+            <button className="bg-green-900 shadow-md shadow-slate-700 rounded-xl p-5">
               <div className="flex justify-center items-center gap-4">
                 <FaGasPump size={25} color="FFFFFF" />
                 <h2 className="text-white font-bold">
