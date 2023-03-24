@@ -1,4 +1,5 @@
 import React from 'react'
+import Diferenciais from '../components/Diferenciais'
 import Services from '../components/Services'
 import Topo from '../components/Topo'
 
@@ -10,6 +11,9 @@ const Home = () => {
 
           {/* Card inicial area */}
           <Services />
+
+          {/* Diferenciais */}
+          <Diferenciais />
     </div>
   )
 }
